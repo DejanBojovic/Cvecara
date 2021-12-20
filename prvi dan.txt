@@ -1,0 +1,15 @@
+•	Učesnici u sistemu
+Glavni učesnici u sistemu su:
+-	Cvećar
+•	Dostavljač
+•	Prodavac
+•	Mušterija
+
+-Cvećar vodi računa o stanju proizvoda u cvećari, sastavlja narudžbinu, sastavlja dekoraciju, organizuje raspored cveća i propratnog materijala, brine o posbenim uslovima za odredjeno cveće i po potrebi obavlja terenski rad dekoracije objekata.
+Cvećar mora da ima bar 2 godine iskustva.
+-Dostavljač preuzima narudžbinu od cvećara I dostavlja je na adresu koju je mušterija obezbedila. Sa mušterijom proverava validnost dostavljenih proizvoda I učestvuje u procesu naplate.
+Dostavljač mora da poseduje vozačku dozvolu B kategorije.
+-Prodavac komunicira sa mušterijom, učestvuje u procesu kupoprodaje, odgovara na mušterijina pitanja, vrši pregled narudžbina u sistemu.
+Predaje cvećaru obradjenu narudžbinu koju treba sastaviti.
+-Mušterija se registruje ili prijavljuje na veb sajt, bira stavke svoje narudžbine bira način plaćanja, ili ako je u radnji bira proizvode na licu mesta.
+Komunikaciju obavlja sa prodavcem ako se mušteriji odmah predaje narudžbina, ili sa dobavljačem ako se narudžbina šalje.
