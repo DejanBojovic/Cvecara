@@ -1,0 +1,88 @@
+Korišćeni alati i dijagrami
+
+Softver korišćen pri izradi proejkta :
+• Microsoft Office ( http://office.microsoft.com/ HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.co
+m%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot; HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+
+om%2F HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+om%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot;&amp; HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+om%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot;sa=D HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+om%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot;&amp; HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+om%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot;sntz=1 HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+om%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot;&amp; HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+om%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot; HYPERLINK
+&quot;http://www.google.com/url?q=http%3A%2F%2Foffice.microsoft.c
+om%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNERUmuzTL-
+bji2ANdjtzFhZDmz-jw&quot; )
+• Diagram Editor ( https://www.diagrameditor.com/ HYPERLINK
+&quot;https://www.diagrameditor.com/%20HYPERLINK%20%22https://w
+ww.diagrameditor.com/%22&quot; HYPERLINK
+&quot;https://www.diagrameditor.com/&quot; HYPERLINK
+&quot;https://www.diagrameditor.com/%20HYPERLINK%20%22https://
+www.diagrameditor.com/%22&quot; )
+Dijagrami kojima su predstavljani slučajevi upotrebe su:
+• Dijagram slučajeva upotrebe
+• Dijagram aktivnosti
+• Dijagram stanja
+
+Dijagrami kojima su prestavljane klase podataka i model baze podataka:
+
+• Klasni UML dijagram
+
+Akteri:
+• Musterija
+• Cvecar
+• Prodavac
+• Dostavljac
+
+Slucajevi upotrebe:
+• Formiranje narudzbine
+• Obrada narudzbine
+• Pripremanje narudzbine
+• Dostavljanje narudzbine
+
+• Naziv: Formiranje narudzbine
+• Akteri: Musterija
+• Preduslovi: nema
+• Postuslovi: musterija moze da bude ulogovana, tj registrovana u sistemu, ili da
+ostavi svoje podatke
+• Ulaz: nema
+• Izlaz: nema
+
+Glavni tok:
+• Musterija bira proizvode
+• Musterija ostavlja svoje podatke
+• Musterija bira nacin placanja
+• Musterija bira da li zeli dostavu
+
+Alternativni tokovi:
+1 - Da li je musterija online
+• – Jeste online
+• - Ako ima nalog
+• – Nastavlja sa narudzbinom
+• – Nastavlja od koraka 3 glavnog toka
+• Ako nema nalog
+• – Ako zeli da kreira nalog
+• – Odvodi se na stranicu gde se kreira nalog
+• Nastavlja se od koraka 3 glavnog toka
+• Ako ne zeli da kreira nalog
+• – Nastavlja se od koraka 2 glavnog toka
+
+• Nije online
+• – Nastavlja od koraka 2 glavnog toka
