@@ -1,0 +1,27 @@
+•	Naziv: Pripremanje narudzbine
+•	Akteri: Cvecar, Prodavac, Dostavljač, Mušterija
+•	Preduslovi: Obradjena narudzbina
+•	Postuslovi: Pripremljena narudzbina
+•	Ulaz: racun narudzbine
+•	Izlaz: nema
+
+Glavni tok:
+1 – Cvecar pregleda racun narudzbine
+2 – Cvecar grupise proizvode u uokvirenu narudzbinu
+3 – Cvecar predaje pripremljenu narudzbinu
+
+
+
+Alternativni tokovi:
+3. – Da li musterija zeli dostavu
+	3.1 – U slucaju da musterija ne zeli dostavu
+		3.1.1 – U slucaju online narudzbine
+			3.1.1.1 – Cvecar predaje pripremljenu narudzbinu prodavcu
+			3.1.1.2 – Prodavac kontaktira musteriju I dogovara preuzimanje u radnji
+		3.1.2 – U slucaju narudzbine u radnji
+			3.1.2.1 – Cvecar predaje prippremljenu narudzbinu prodavcu
+			3.1.2.2 – Prodavac predaje pripremljenu narudzbinu musteriji
+			3.1.2.3 – Musterija placa prodavcu
+			3.1.2.4 – Prodavac oznacava narudzbinu kao izvrsenu
+	3.2 – U slucaju da musterija zeli dostavu
+		3.2.1 – Cvecar predaje pripremljenu narudzbinu dostavljacu
