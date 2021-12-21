@@ -1,0 +1,12 @@
+Opis sistema
+
+Sistem omogućava odredjene funkcionalnosti mušterijama, kao i
+administrativnom delu. Mušterije se mogu registrovati, prijaviti i poručiti
+odredjene proizvode – sastaviti narudžbinu. Administrativni deo, kojem
+prodavci imaju pristup, se koristi za validaciju narudžbina, I praćenja
+stanja resursa cvećare.
+
+Sistem je povezan na bazu podataka u kojoj se nalaze informacije
+vezane za proizvode, porudzbine I mušterije.
+Sistem je izradjen u Laravel frejmvorku čije je konstatno dobro
+održavanju doprinelo odabiru tog frejmvorka za izradu sistema.
