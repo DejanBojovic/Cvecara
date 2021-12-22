@@ -1,0 +1,12 @@
+Naziv: Dostavljanje narudzbine
+• Akteri: Dostavljac, Musterija
+• Preduslovi: Pripremljena narudzbina
+• Postuslovi: Izvrsena narudzbina
+• Ulaz: nema
+• Izlaz: Potvrda musterije
+Glavni tok:
+1 – Dostavljac preuzima pripremljenu narudzbinu
+2 – Dostavljac odnosi pripremljenu narudzbinu na dogovorenu adresu
+3 – Musterija placa dostavljacu na dogovoreni nacin
+4 – Dostavljac oznacava naruzdbinu kao izvrsenu
+Alternativni tokovi: nema
