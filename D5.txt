@@ -1,0 +1,14 @@
+Podaci o narudžbenici mušterije
+
+U tabeli narudžbenica mušterije se čuvaju svi podaci neophodni za poručivanje proizvoda.
+Podaci iz tabele Mušterija koja čuva podatke o Mušteriji. Podaci iz tabele Proizvod koja čuva
+podatke o samom proizvodu i tabele Zaposleni koja cuva podatke o zaposlenom.
+
+Narudžbenica mušterije obuhvata:
+
+-idNarudžbenicaKupca-Primarni ključ
+-*NačinPlaćanja-Ograničenje: nije nepostojeća vrednost
+-*DatumPoručivanja-Ograničenje: nije nepostojeća vrednost
+-idMušterija-Strani ključ, referenca mušterija
+-idProizvod-Strani ključ, referenca proizvod
+-idZaposelni-Strani ključ, referenca proizvod
