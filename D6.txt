@@ -1,0 +1,24 @@
+Podaci o zaposlenim
+
+Tabela Zaposleni sadrži podatke o zaposlenom. Cvećara ima više zaposelnih zato u tabeli
+Zaposeleni ima strani ključ Vrsta Zaposlenja koja se odnosi na poslove za koje je nas Zaposleni
+zadužen.
+
+Podaci o Prodavcu oduhvata:
+
+-Ime-Primarni ključ
+-Prezime-Ograničenje: nije nepostojeća vrednost
+-StručnaSprema-Ograničenje: nije nepostojeća vrednost
+-idVrstaZaposlenje-Strani ključ, referenca NarudžbenicaKupca
+
+Podaci o vrsta zaposelnja obuhvataju:
+
+-idVrstaZaposlenje-Primarni ključ
+-Zaposlenje-Ograničenje: nije nepostojeća vrednost
+
+Tipovi pravila validacije:
+
+* Email mora da sadrži @ kako bi ispostovao pravilo validacije.
+*Telefon mora da sadrži pozivni broj države(npr. Srbija +381)
+*Uneti datum i vreme ne mogu biti stariji od datum i vremena koje je u trenutku
+poručivanja
