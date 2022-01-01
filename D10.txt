@@ -1,0 +1,3 @@
+-Plan implementacije softvera
+
+Naš plan implementacije softvera je takav da ćemo prvo uzeti web server na kojem ce naša web podavnica biti, posle toga pravimo bazu podataka u kojoj se nalaze podaci o proizvodima kao i stvari vezane za korisnički deo, administrativni deo i deo za porudzbine, način slanja i plaćanja. Onda pravimo dizajn web prodavnice i diskutujemo sa Vama o izgledu i nekim modifikacijama ako je potrebno a zatim i pravimo web prodavnicu preko već pomenutih alata.Posle toga pravimo backend deo odnosno deo koji će sluziti da naša aplikacija radi i obavlja sve zadatke. U celini kada se sve  stvari završe, spoje jedna sa drugom i provere da li rade, web prodavnciu postavljamo na web host i posle toga ona će biti dostupna svima na internetu.
